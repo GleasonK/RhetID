@@ -1,0 +1,180 @@
+body{
+	background: url(Content/Images/books.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+	font-family: 'Lato', sans-serif;
+}
+
+#bg_div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(255, 255, 255, 0.0) 50%, rgba(255, 255, 255, 0.90) 95%);
+	left: 0;
+	top: 0;
+}
+
+#title{
+	font-size: 45px;
+	color: white;
+	text-align: center;
+	margin-top:25px;
+	margin-bottom: 0;
+	text-shadow: 4px 6px 17px rgba(137, 21, 182, 0.25);
+}
+#tag_line{
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-style: italic;
+}
+
+#center_box{
+	width: 75%;
+	height: 250px;
+	margin: 50px auto 0 auto;
+	position: relative;
+}
+
+.center_blur{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.85);
+	z-index: -5;
+	border-radius: 5px;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+
+#enter_text{
+	background: none;
+	border: none;
+	font-family: 'Lato', sans-serif;
+	padding: 10px;
+	width: 96%;
+	height: 85%;
+	margin: 8px;
+	margin-bottom: 20px;
+	color: rgba(78, 71, 71, 0.95);
+	font-size: 18px;
+	outline: 5px rgba(255, 255, 255, 0.25) outset;
+}
+
+#enter_text:focus{
+	outline: 5px rgba(255, 255, 255, 0.35) outset;
+	background: rgba(255, 255, 255, 0.50);
+}
+
+.center_text{
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+
+}
+
+#analyze_button {
+	width: 100%;
+	max-width: 250px;
+	padding: 10px;
+	background: rgba(52, 13, 76, 0.77);
+	border-radius: 5px;
+	border: 2px outset rgba(88, 35, 121, .5);
+	font-family: 'Lato', sans-serif;
+	font-size: 28px;
+	color: white;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+#analyze_button:hover {
+	background: rgba(52, 13, 76, 0.80);
+}
+#analyze_button:active {
+	background: rgba(52, 13, 76, 0.85);
+	border: 2px inset rgba(88, 35, 121, .5);
+}
+
+#upload_button{
+	position: absolute;
+	border-radius: 50%;
+	padding: 10px;
+	right:25px;
+	bottom: 25px;
+	background: rgba(255, 255, 255, 0.87);
+	border: 2px solid rgba(127, 127, 127, 0.25);
+	box-shadow: 1px 2px 1px rgba(98, 98, 98, 0.91);
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #3e3e3e;
+
+}
+
+#upload_button:hover{
+	background: rgba(255, 255, 255, 0.87);
+	border: 2px outset rgba(127, 127, 127, 0.50);
+}
+#upload_button:active{
+	border: 2px inset rgba(127, 127, 127, 0.43);
+}
+
+#file_upload_modal{
+	height: 0;
+	overflow: hidden;
+}
+
+/* RESULTS CSS */
+#page-content{
+	width: 95%;
+	margin: 0 auto;
+	min-width: 650px;
+	max-width: 750px;
+}
+
+
+#myChart{
+	margin: 0 auto;
+}
+
+#graph-box{
+	margin: 0 auto;
+	margin-top: 50px;
+	min-width:650px;
+	width: 100%;
+	text-align: center;
+	background: white;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#author-info{
+	margin-top: 0px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0.73) 0%, rgba(58,12,86,0.78) 84.11%);
+	border-radius: 0px 0px 5px 5px;
+	padding-bottom: 25px;
+}
+
+#auth-title{
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+#auth-compare{
+	margin: 0 auto;
+	color: white;
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid white;
+	padding: 2px;
+}
